@@ -1,0 +1,15 @@
+server:
+  port: 18082
+  servlet:
+    context-path: /chat-server
+netty:
+  server:
+    port: 18182
+app:
+  zk:
+    switch: true
+    addr: 127.0.0.1:2181
+    connect:
+      timeout: 15000
+    root: /route
+
